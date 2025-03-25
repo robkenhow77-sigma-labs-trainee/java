@@ -1,0 +1,3 @@
+Name: Robert Howarth
+Branch: London
+Account balance: £1000.00
