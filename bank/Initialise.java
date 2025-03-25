@@ -7,8 +7,8 @@ public class Initialise {
         Branch edinburghBranch = new Branch("Edingurgh");
 
         // Create members
-        Member rob = new Member("Robert Howarth", 1000);
-        Member tom = new Member("Thomas Kolberg", 5000);
+        Member rob = new Member("Robert Howarth", (int) (Math.random()* 5000));
+        Member tom = new Member("Thomas Kolberg",  (int) (Math.random()* 5000));
 
         // Add members to branches
         londonBranch.members.put("rob", rob);
